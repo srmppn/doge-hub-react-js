@@ -1,0 +1,17 @@
+.upload-body {
+    border: medium dashed;
+    text-align: center;
+    height: 300px;
+    line-height: 300px;
+    cursor: pointer;
+}
+.upload-btn {
+    margin-top: 10px;
+    width: 100%;
+    background-color: orange;
+    border: 1px black;
+}
+.upload-btn:hover {
+    color: black;
+    background-color: darkorange;
+}

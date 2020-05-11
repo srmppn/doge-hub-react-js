@@ -1,0 +1,82 @@
+.channel-container {
+    display: flex;
+    flex-direction: column;
+}
+.custom-jumbotron {
+    background-color: black;
+}
+.channel-description {
+    color: white;
+}
+.channel-description span {
+    margin-left: 3px;
+    color: orange;
+    cursor: pointer;
+}
+.channel-description span:hover {
+    text-decoration: underline;
+}
+.change-image-btn {
+    position: absolute;
+    color: white;
+    right: 35px;
+    bottom: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.contact-container {
+    padding: 15px;
+    color: white;
+}
+.contact-container span{
+    cursor: pointer;
+}
+.contact-container span:hover{
+    text-decoration: underline;
+}
+.user-name-header {
+    color: orange;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.nav-tabs {
+    border-color: orange;
+}
+.nav-link {
+    border-color: orange !important;
+    color: orange !important;
+}
+.nav-link.active {
+    background-color: orange !important;
+    border-color: orange !important;
+    color: black !important;
+}
+.profile-container {
+    padding: 15px;
+    color: white;
+}
+.profile-image-container {
+    position: relative;
+    display: inline-block;
+}
+.profile-image {
+    border: 3px solid orange;
+    border-radius: 50%;
+    background-color: orange;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    margin-left: 0;
+}
+.information-container {
+    display: inline-block;
+}
+.nugger-point-img {
+    transform: rotate(-20deg);
+    margin: 0 5px;
+}
+.description-edit-form {
+    margin: 7px 0;
+}

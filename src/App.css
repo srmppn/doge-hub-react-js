@@ -1,0 +1,12 @@
+
+.main-panel {
+  background-color: black;
+}
+.video-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+}
+

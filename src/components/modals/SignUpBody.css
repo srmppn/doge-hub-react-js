@@ -1,0 +1,7 @@
+.sign-option-btn {
+    background-color: orange;
+    border: black;
+}
+.sign-option-btn:hover {
+    background-color: darkorange;
+}

@@ -1,0 +1,38 @@
+.home-text {
+    color: white;
+}
+.sub-home-text {
+    padding: 3px;
+    margin-left: 2px;
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 5px;
+}
+.dropdown-menu {
+    left: -65px !important;
+}
+.account-name {
+    font-size: 18px;
+}
+.profile-pic {
+    border: 1px solid orange;
+    border-radius: 50%;
+    background-color: orange;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+}
+.btn-outline-warning {
+    color: orange;
+    border-color: orange;
+}
+.btn-warning {
+    color: white;
+    background-color: orange;
+}
+.nav-link {
+    color: white !important;
+}

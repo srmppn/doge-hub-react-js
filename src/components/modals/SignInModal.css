@@ -1,0 +1,32 @@
+.sign-options-button-container div{
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    margin-bottom: 10px;
+}
+.sign-btn-color {
+    background-color: orange;
+    border: black;
+}
+.sign-btn-color:hover {
+    background-color: darkorange;
+    border: black;
+}
+.header-main-text {
+    font-weight: bold;
+}
+.header-sub-text {
+    padding: 3px;
+    margin-left: 2px;
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 5px;
+}
+.btn-info-label {
+    text-align: right;
+}
+.back-option-btn {
+    text-decoration: underline;
+    cursor: pointer;
+}

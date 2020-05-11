@@ -1,0 +1,45 @@
+.main-player {
+    display: inline-block;
+    flex-direction: column;
+    margin-left: calc(16px / 2);
+    margin-right: calc(16px / 2);
+}
+.user-icon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: orange;
+}
+.video-info {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 6px;
+    height: 100px;
+}
+.video-content {
+    position: relative;
+}
+.video-thumb-nail {
+    overflow: hidden;
+    cursor: pointer;
+}
+.details-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.details-container .title {
+    color: orange;
+}
+.duration-label {
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+.views-and-wow {
+    font-size: 14px;
+    color: white;
+}
